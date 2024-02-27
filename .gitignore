@@ -1,0 +1,5 @@
+__pycache__/
+.ipynb_checkpoints
+notebooks_gitignore/
+.vscode
+.DS_Store
