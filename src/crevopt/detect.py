@@ -15,9 +15,6 @@ Tom Chudley | thomas.r.chudley@durham.ac.uk | Durham University
 February 2024
 """
 
-__version__ = "1.0.0"
-
-
 import cv2 as cv
 import numpy as np
 

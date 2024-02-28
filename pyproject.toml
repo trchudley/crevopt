@@ -28,4 +28,4 @@ Repository = "https://github.com/trchudley/crevopt"
 Issues = "https://github.com/trchudley/crevopt/issues"
 
 [tool.setuptools.packages.find]
-where = ["."]
+where = ["src"]
