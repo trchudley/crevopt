@@ -3,3 +3,4 @@ __pycache__/
 notebooks_gitignore/
 .vscode
 .DS_Store
+*.egg-info/

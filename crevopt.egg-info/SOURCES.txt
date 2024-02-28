@@ -1,8 +1,0 @@
-LICENSE.md
-README.md
-pyproject.toml
-crevopt.egg-info/PKG-INFO
-crevopt.egg-info/SOURCES.txt
-crevopt.egg-info/dependency_links.txt
-crevopt.egg-info/requires.txt
-crevopt.egg-info/top_level.txt
