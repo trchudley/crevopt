@@ -1,0 +1,31 @@
+[build-system]
+requires = [ "setuptools>=61.2",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crevopt"
+dynamic = ["version"]
+description = "Glacier crevasse detection utilising a gabor filter."
+keywords = [ "geospatial", "satellite", "crevasse", "sentinel-2", "optical", "glaciology", "ice", ]
+classifiers = [ "Intended Audience :: Science/Research", "Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent", "Topic :: Scientific/Engineering", "Topic :: Scientific/Engineering :: GIS", "Topic :: Scientific/Engineering :: Image Processing",]
+requires-python = ">=3.10"
+dependencies = ["opencv-python", "numpy"]
+
+[[project.authors]]
+name = "Tom Chudley"
+email = "thomas.r.chudley@durham.ac.uk"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/trchudley/crevopt"
+Repository = "https://github.com/trchudley/crevopt"
+Issues = "https://github.com/trchudley/crevopt/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]

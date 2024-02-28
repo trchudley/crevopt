@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: crevopt
+Version: 0.0.0
+Summary: Glacier crevasse detection utilising a gabor filter.
+Author-email: Tom Chudley <thomas.r.chudley@durham.ac.uk>
+License: MIT
+Project-URL: Homepage, https://github.com/trchudley/crevopt
+Project-URL: Repository, https://github.com/trchudley/crevopt
+Project-URL: Issues, https://github.com/trchudley/crevopt/issues
+Keywords: geospatial,satellite,crevasse,sentinel-2,optical,glaciology,ice
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+
+# crevopt
+
+Glacier crevasse detection utilising a gabor filter following Van Wyk de Vries et al.
+(2023). Designed for band 8 Sentinel-2 optical imagery.
+
+Adapted from matlab script supplement to Van Wyk de Vries et al. (2023) available at:
+https://github.com/MaxVWDV/Gabor-crevasse-detector
+
+Van Wyk de Vries, M., Lea, J. M., & Ashmore, D. W. (2023). Crevasse density, 
+orientation and temporal variability at Narsap Sermia, Greenland. Journal of Glaciology, 
+69(277), 1125–1137. doi:https://doi.org/10.1017/jog.2023.3

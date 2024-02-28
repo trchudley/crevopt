@@ -15,9 +15,7 @@ Tom Chudley | thomas.r.chudley@durham.ac.uk | Durham University
 February 2024
 """
 
-__author__ = "Tom Chudley"
 __version__ = "1.0.0"
-__license__ = "MIT"
 
 
 import cv2 as cv
