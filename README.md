@@ -11,7 +11,7 @@ https://github.com/MaxVWDV/Gabor-crevasse-detector
 
 ## Install
 
-Download or clone this repository. It is recommended that you install the dependencies (`opencv-python`, `numpy`, `rioxarray`, and `numba`) in your `conda` environmen before  are installed in your local `conda` environment (as well as any additional packages necessary - e.g. `rioxarray` for loading and exporting data).
+Download or clone this repository. It is recommended that you install the dependencies (`opencv`, `numpy`, `rioxarray`, and `numba`) in your `conda` environment before you perform a local install, as `conda` can better manage non-Python dependencies (e.g. GDAL) than `pip`.
 
 The package can then be installed from the main `crevopt` directory via a pip local dev install:
 
@@ -87,8 +87,7 @@ to 10.
 
 **Returns:**
 
-- `likelihood`: Local gabor phase angle maxima. A measure of how strongly linear
-a certain area of the image is.
+- `Tuple[np.ndarray | xr.DataArray, np.ndarray | xr.DataArray]`: The likelihood and orientation arrays. 'Likelihood' represents the local gabor phase angle maxima, a measure of how strongly linear a certain area of the image is. `orientation` represents the dominant orientation of the linear features.
 
 ### `crevopt.crevasse_mask()`
 
