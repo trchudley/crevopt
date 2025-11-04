@@ -79,7 +79,7 @@ output for their given study site.
 - **img** (`np.ndarray | xr.DataArray`): The input image as a 2D numpy array or rioxarray/xarray xr.DataArray.
 - **angle** (`float`): The seperation angle of the Gabor filter, in degrees. Defaults
 to 10.
-- **gab_size** (`float`): Scale of the gabor filter (wavelength in pixels). Defaults to 4.
+- **gab_size** (`float`): Scale of the gabor filter (wavelength in pixels). Defaults to 2.
 - **gab_band** (`float`): Gabor spatial frequency bandwidth. Defaults to 2.
 - **gab_ar** (`float`): Gabor filter spatial aspect ratio. Defaults to 0.1.
 - **minangle** (`float`): Minimum gabor filter angle. Defaults to 0.

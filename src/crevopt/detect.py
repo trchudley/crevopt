@@ -49,7 +49,7 @@ def gabor_filter(
     :param angle: The seperation angle of the Gabor filter, in degrees. Defaults
         to 10.
     :type angle: float
-    :param gab_size: Scale of the gabor filter (wavelength in pixels). Defaults to 4.
+    :param gab_size: Scale of the gabor filter (wavelength in pixels). Defaults to 2.
     :type gab_size: float
     :param gab_band: Gabor spatial frequency bandwidth. Defaults to 2.
     :type gab_band: float
