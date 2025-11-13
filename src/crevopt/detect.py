@@ -248,8 +248,8 @@ def crevasse_mask(
     orientation = np.where(likelihood_mask, orientation, np.nan)
 
     if revert_rioxarray:
-        likelihood = (rxr_copy * likelihood).squeeze()
-        orientation = (rxr_copy * orientation).squeeze()
+        likelihood = (rxr_copy * 0 + likelihood).squeeze()
+        orientation = (rxr_copy * 0 + orientation).squeeze()
 
     return likelihood, orientation
 
